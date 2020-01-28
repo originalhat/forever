@@ -6,5 +6,14 @@ jobs:
     resource_class: medium
     steps:
       - checkout
-      - run: ./run.sh
+      - run:
+          name: S P A C E
+          command: |
+            set -efux
+
+            while :
+            do
+              echo 'lulz'
+              sleep 60
+            done
 
